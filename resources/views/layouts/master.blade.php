@@ -10,8 +10,11 @@
   <title>AdminLTE 2 | Starter</title>
    <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
+  <!-- Datatables -->
+  <link href="https://datatables.yajrabox.com/css/datatables.bootstrap.css" rel="stylesheet">
 
 </head>
 
@@ -72,7 +75,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="#"><i class="fa fa-file"></i> <span>Posts</span></a></li>
+        <li><a href="{{url('/teacher/student-record')}}"><i class="fa fa-file"></i> <span>Student</span></a></li>
         
         @can('isAdmin')
          <li class="active"><a href="{{url('category')}}"><i class="fa fa-microchip"></i> <span>Category</span></a></li>
@@ -124,7 +127,10 @@
   </footer>
 </div>
 
-
+<script src="https://datatables.yajrabox.com/js/jquery.min.js"></script>
+<script src="https://datatables.yajrabox.com/js/bootstrap.min.js"></script>
+<script src="https://datatables.yajrabox.com/js/jquery.dataTables.min.js"></script>
+<script src="https://datatables.yajrabox.com/js/datatables.bootstrap.js"></script>
 <script src="{{asset('js/app.js')}}"></script>
 
 </body>

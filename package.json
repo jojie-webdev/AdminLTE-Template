@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "admin-lte": "^2.4.3",
+        "datatables.net": "^1.10.16",
         "font-awesome": "^4.7.0"
     }
 }

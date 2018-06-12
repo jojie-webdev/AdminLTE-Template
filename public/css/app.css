@@ -19,16 +19,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/*  ADMIN LTE */
-.skin-blue .main-header .navbar {
-  background-color: #bcb73c;
-  z-index: 99999!important;
-  height: 50px!important;
-}
-.skin-blue .main-header .navbar .sidebar-toggle:hover {
-  background: none!important;
-}
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
