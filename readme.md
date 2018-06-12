@@ -61,7 +61,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 Setup
-1. Install fresh laravel
+1. Install fresh laravel and configure database
 2. run npm install
 3. run npm install admin-lte --save  and run npm install font-awesome
 4. configure app.scss /add admin-lte
